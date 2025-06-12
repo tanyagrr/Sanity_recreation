@@ -76,7 +76,7 @@ li {
 }
 
 .login {
-    transition: background-color .1s ease-in;
+    transition: background-color .2s ease-in;
     border-radius: 0.25rem;
 }
 
@@ -172,7 +172,7 @@ li {
     font-size: 15px;
     font-weight: 600;
     border-radius: 0.5rem;
-    transition: background-color .1s ease-in;
+    transition: background-color .2s ease-in;
 }
 
 .book-demo:hover {
@@ -190,7 +190,7 @@ li {
     border-radius: 0.5rem;
     font-size: 15px;
     font-weight: 600;
-    transition: background-color .1s ease-in;
+    transition: background-color .2s ease-in;
     cursor: pointer;
 }
 
@@ -293,7 +293,7 @@ li {
     border-radius: 1rem;
     background-color: var(--background-color4);
     text-decoration: none;
-    transition: background-color .15s;
+    transition: background-color .15s ease-in;
 }
 
 .feature:hover {
@@ -317,9 +317,14 @@ li {
 }
 
 .feat-text1_2 {
-    color: var(--text-color1);
+    fill: transparent;
     font-weight: 600;
     font-size: 2rem;
+    transition: fill .2s ease-in;
+}
+
+.feature:hover .feat-text1_2 {
+    fill: var(--text-color1);
 }
 
 .feat-text2 {
@@ -356,6 +361,22 @@ hr {
 }
 
 
-@media screen and (max-width: 480px) {
-    
-}
+/* @media screen and (max-width: 500px)  {
+    body .section {
+        display: flex;
+        flex-direction: column;
+        max-width: 1200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body .text {
+        display: flex;
+        flex-direction: column;
+    }
+    .pic {
+        object-fit: contain;
+        width: 800px;
+        height: auto;
+    }
+} */

@@ -12,7 +12,6 @@ function Info2() {
                 width="1.5rem"
                 height="auto"
                 viewBox="0 0 16 16"
-                fill="#ffffff"
               >
                 <path
                   fill-rule="evenodd"
@@ -42,7 +41,6 @@ function Info2() {
                 width="1.5rem"
                 height="auto"
                 viewBox="0 0 16 16"
-                fill="#ffffff"
               >
                 <path
                   fill-rule="evenodd"
@@ -72,7 +70,6 @@ function Info2() {
                 width="1.5rem"
                 height="auto"
                 viewBox="0 0 16 16"
-                fill="#ffffff"
               >
                 <path
                   fill-rule="evenodd"
@@ -102,7 +99,6 @@ function Info2() {
                 width="1.5rem"
                 height="auto"
                 viewBox="0 0 16 16"
-                fill="#ffffff"
               >
                 <path
                   fill-rule="evenodd"
